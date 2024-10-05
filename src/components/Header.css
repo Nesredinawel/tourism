@@ -1,0 +1,45 @@
+.header {
+    background: rgb(79,198,185);
+
+    box-shadow: 0 0 30px 30px rgb(79,198,185);
+  }
+  .nav{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav p{
+    padding-left: 50px;
+
+  }
+  .nav-links {
+    padding-right: 90px;
+    gap: 30px;
+    display: flex;
+    
+  }
+  
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  @media (max-width: 768px) {
+.header{
+    padding: 5%;
+}
+.header p{
+    padding: 0%;
+}
+.nav-links {
+    padding-right: 0px;
+   
+    
+  }
+
+  }
+  
+  
